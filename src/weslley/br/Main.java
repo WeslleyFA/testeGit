@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-
 		List<Animal> animaisList = new ArrayList<>();
 
 		Animal toto = new Animal("Toto", "Viralata", "Caramelo", 3);
@@ -30,9 +29,7 @@ public class Main {
 
 		for (Animal animal : animaisList) {
 			System.out.println(animal.toString());
-
-		}
-
+		}	
 	}
-
+	
 }
