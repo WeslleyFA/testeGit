@@ -22,6 +22,8 @@ public class Main {
 
 		Animal loro = new Animal("Loro", 20);
 		animaisList.add(loro);
+		
+		Animal gatinho = new Animal("Sid", 2);
 
 		Cachorro cachorro = new Cachorro("Joao", "Poodle", "Branco", 10);
 
