@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import weslley.br.models.Animal;
 
-public class ResolucaoWeslley {
-	public static void resolucaoEsperada() {
+public class Resolucao {
+	public static void start() {
 		System.out.println("*************************");
 		
 		Boolean cadastrarDenovo = true;

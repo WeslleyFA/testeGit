@@ -6,7 +6,7 @@ public class Main {
 	
 		
 		
-		ResolucaoWeslley.resolucaoEsperada();
+		Resolucao.start();
 	}
 	
 }
