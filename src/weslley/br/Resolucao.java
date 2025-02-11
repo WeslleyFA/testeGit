@@ -31,7 +31,7 @@ public class Resolucao {
 			
 			animaisCadastrados.add(animal);
 			
-			System.out.println("Seseja cadastrar outro animal: (S/N) ");
+			System.out.println("Deseja cadastrar outro animal: (S/N) ");
 			String resposta = scaneiaTeclado.next();
 			
 			if(resposta.equals("s") || resposta.equals("S"))
