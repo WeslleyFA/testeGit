@@ -1,13 +1,20 @@
 package weslley.br;
 
+<<<<<<< HEAD
 import loopDeNumeros.LoopDeNumerosImparesEPares;
 import loopDeNumeros.LoopTabuada;
 import weslley.br.models.Cantor;
 import weslley.br.models.Jogo; 
+=======
+import java.util.Scanner;
+
+import weslley.br.models.Comida;
+>>>>>>> b4efa5dc30a313426e715bce20aab0ea744b8029
 
 public class Main {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
      Cantor cantor = new Cantor(50, "POP", "Michael Jackson", "Nenhum", false);
      System.out.println(cantor);
          	
@@ -26,3 +33,24 @@ public class Main {
      System.out.println(cantor3);
     }
 }
+=======
+	public static void main(String[] args) {
+
+		Comida comida = new Comida("Lasanha", 490.00, "Salgado");
+
+		System.out.println("====================");
+
+		Comida pizza = new Comida();
+
+		pizza.setNome("Pizza");
+		pizza.setPeso(500.00);
+		pizza.setTipo("Salgado");
+		System.out.println(pizza);
+
+		Comida acai = new Comida("Açai", 500.00, "Doce");
+		
+		
+
+	}
+}
+>>>>>>> b4efa5dc30a313426e715bce20aab0ea744b8029
